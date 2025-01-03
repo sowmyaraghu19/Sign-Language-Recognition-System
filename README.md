@@ -16,14 +16,15 @@ Dataset Collection: Captures and organizes gesture images for each letter of the
 Sign Recognition: Uses a CNN to predict the gesture's corresponding alphabet or word.
 Word Suggestions: Implements Hunspell to suggest words when gesturing letter-by-letter.
 Audio-to-Text Conversion: Converts recognized text into audio in various languages using gTTS.
-Project Files
-image_processing.ipynb
 
+# Project Files
+1. image_processing.ipynb:
 Performs image preprocessing, including grayscale conversion, Gaussian blur, and adaptive thresholding, to prepare images for training.
-datacollection.ipynb
 
+2. datacollection.ipynb:
 Collects gesture data from the user via webcam and organizes the dataset into training and testing directories for each alphabet (A-Z).
-Prerequisites
+
+# Prerequisites
 Python 3.8 or above
 OpenCV
 NumPy
@@ -32,31 +33,21 @@ gTTS
 TensorFlow/Keras (for model implementation)
 Webcam for data collection
 
-# Setup
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-repository/sign-language-recognition-system.git
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Create the necessary directory structure for the dataset:
-bash
-Copy code
-python datacollection.ipynb
-
 # How to Run
-Step 1: Data Collection
+Step 1: Data Collection:
 Run datacollection.ipynb to capture gestures for each alphabet.
 Use the webcam interface to record your gestures and save them into the appropriate dataset folder.
-Step 2: Preprocessing
+
+Step 2: Preprocessing:
 Use image_processing.ipynb to preprocess the captured images, converting them into grayscale and applying adaptive thresholding for consistency.
-Step 3: Model Training (Optional)
+
+Step 3: Model Training (Optional):
 Train your CNN model using the processed dataset or use a pre-trained model (to be added in future iterations).
-Step 4: Testing
+
+Step 4: Testing:
 Use the model to predict gestures in real time and generate corresponding letters or words.
-Step 5: Additional Features
+
+Step 5: Additional Features:
 Activate Hunspell for word suggestions and gTTS for converting text to speech.
 
 # Technologies Used
