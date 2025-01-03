@@ -1,15 +1,6 @@
 # Sign-Language-Recognition-System
 A computer vision-based project designed to recognize and interpret Indian Sign Language gestures using a convolutional neural network (CNN). This system enhances accessibility for individuals with hearing or speech impairments by providing gesture recognition capabilities, word suggestions, and audio-to-text conversion.
 
-# Table of Contents
-Features
-Project Files
-Prerequisites
-Setup
-How to Run
-Technologies Used
-Acknowledgments
-
 # Features
 1. Image Preprocessing: Converts gesture images into a format suitable for model training.
 2. Dataset Collection: Captures and organizes gesture images for each letter of the alphabet.
