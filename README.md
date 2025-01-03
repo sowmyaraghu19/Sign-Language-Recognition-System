@@ -11,11 +11,11 @@ Technologies Used
 Acknowledgments
 
 # Features
-Image Preprocessing: Converts gesture images into a format suitable for model training.
-Dataset Collection: Captures and organizes gesture images for each letter of the alphabet.
-Sign Recognition: Uses a CNN to predict the gesture's corresponding alphabet or word.
-Word Suggestions: Implements Hunspell to suggest words when gesturing letter-by-letter.
-Audio-to-Text Conversion: Converts recognized text into audio in various languages using gTTS.
+1. Image Preprocessing: Converts gesture images into a format suitable for model training.
+2. Dataset Collection: Captures and organizes gesture images for each letter of the alphabet.
+3. Sign Recognition: Uses a CNN to predict the gesture's corresponding alphabet or word.
+4. Word Suggestions: Implements Hunspell to suggest words when gesturing letter-by-letter.
+5. Audio-to-Text Conversion: Converts recognized text into audio in various languages using gTTS.
 
 # Project Files
 1. image_processing.ipynb:
