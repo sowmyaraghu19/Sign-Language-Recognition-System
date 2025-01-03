@@ -16,13 +16,13 @@ Performs image preprocessing, including grayscale conversion, Gaussian blur, and
 Collects gesture data from the user via webcam and organizes the dataset into training and testing directories for each alphabet (A-Z).
 
 # Prerequisites
-Python 3.8 or above
-OpenCV
-NumPy
-Hunspell
-gTTS
-TensorFlow/Keras (for model implementation)
-Webcam for data collection
+1. Python 3.8 or above
+2. OpenCV
+3. NumPy
+4. Hunspell
+5. gTTS
+6. TensorFlow/Keras (for model implementation)
+7. Webcam for data collection
 
 # How to Run
 Step 1: Data Collection:
@@ -42,11 +42,11 @@ Step 5: Additional Features:
 Activate Hunspell for word suggestions and gTTS for converting text to speech.
 
 # Technologies Used
-OpenCV: For image processing and webcam data capture.
-NumPy: For numerical computations.
-Hunspell: For word suggestion.
-gTTS: For text-to-speech conversion.
-TensorFlow/Keras: For building and training the CNN.
+1. OpenCV: For image processing and webcam data capture.
+2. NumPy: For numerical computations.
+3. Hunspell: For word suggestion.
+4. gTTS: For text-to-speech conversion.
+5. TensorFlow/Keras: For building and training the CNN.
 
 # Acknowledgments
 Indian Sign Language Dataset: Inspired by commonly used Indian Sign Language gestures.
